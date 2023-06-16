@@ -6,4 +6,9 @@ class EndPointRes {
   static const postsEndPoint = "${baseUrl}posts";
   static const todosEndPoint = "${baseUrl}todos";
   static const usersEndPoint = "${baseUrl}users";
+
+
+  static const authBaseUrl = "https://panchat.in/api/client/";
+  static const signUp = "${authBaseUrl}Register";
+  static const login = "${authBaseUrl}login";
 }
